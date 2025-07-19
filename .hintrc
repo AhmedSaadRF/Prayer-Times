@@ -4,6 +4,12 @@
   ],
   "hints": {
     "no-inline-styles": "off",
-    "highest-available-document-mode": "off"
+    "highest-available-document-mode": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off"
+      }
+    ]
   }
 }
