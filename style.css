@@ -70,11 +70,12 @@ h1,h2,h3,h4,h5,h6{
   height: 60px;
   font-size: 25px;
   font-family: 'Tajawal', sans-serif;
-  background: none;
+  background: transparent;
   color: white;
   padding: 10px;
   border-radius: 20px;
 }
 .selectcont select option{
-  background-color: white;
+  background-color: #000000;
+  border: none;
 }

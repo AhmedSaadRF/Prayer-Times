@@ -18,7 +18,7 @@
       <!-- CITY NAME + DATE -->
       <div id="cont1">
         <div id="citycont">
-          <h1 id="cityName">مطوبس</h1>
+          <h1 id="cityName">كفر الشيخ</h1>
           <h6 id="date">الجمعة ٢٤ نوفمبر</h6>
         </div>
         <!-- CITY NAME + DATE -->
@@ -30,66 +30,65 @@
               <h1>الفجر</h1>
             </div>
             <div class="body center">
-              <h1 class="time">04:30</h1>
+              <h1 class="time" id="fajr">04:30</h1>
             </div>
           </div>
 
           <div class="card">
             <div class="header">
-              <h1>الفجر</h1>
+              <h1>الشروق</h1>
             </div>
             <div class="body center">
-              <h1 class="time">04:30</h1>
+              <h1 class="time" id="sunrise">04:30</h1>
             </div>
           </div>
 
           <div class="card">
             <div class="header">
-              <h1>الفجر</h1>
+              <h1>الظهر</h1>
             </div>
             <div class="body center">
-              <h1 class="time">04:30</h1>
+              <h1 class="time" id="dhuhr">04:30</h1>
             </div>
           </div>
 
           <div class="card">
             <div class="header">
-              <h1>الفجر</h1>
+              <h1>العصر</h1>
             </div>
             <div class="body center">
-              <h1 class="time">04:30</h1>
+              <h1 class="time" id="asr">04:30</h1>
             </div>
           </div>
 
           <div class="card">
             <div class="header">
-              <h1>الفجر</h1>
+              <h1>المغرب</h1>
             </div>
             <div class="body center">
-              <h1 class="time">04:30</h1>
+              <h1 class="time" id="maghrib">04:30</h1>
             </div>
           </div>
 
           <div class="card">
             <div class="header">
-              <h1>الفجر</h1>
+              <h1>العشاء</h1>
             </div>
             <div class="body center">
-              <h1 class="time">04:30</h1>
+              <h1 class="time" id="isha">04:30</h1>
             </div>
           </div>
         </div>
         <!-- PRAYER TIMING -->
         <!-- CHANGE PRAYER SELECT -->
         <div class="center selectcont">
-          <select name="" id="">
-            <option value="">مطوبس</option>
-            <option value="">ابيانة</option>
-            <option value="">فوة</option>
+          <select name="" id="citiesSelect">
           </select>
         </div>
         <!-- CHANGE PRAYER SELECT -->
       </div>
     </div>
   </body>
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="index.js"></script>
 </html>
